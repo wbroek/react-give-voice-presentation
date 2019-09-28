@@ -1,0 +1,39 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "yarn react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
+    "expo-speech": "^6.0.0",
+    "react": "16.8.6",
+    "react-async": "^8.0.0",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-maps": "0.25.0",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-siri-shortcut": "^1.5.1",
+    "react-native-swift": "^1.2.2",
+    "react-native-unimodules": "^0.5.4",
+    "react-native-voice": "^0.3.0",
+    "react-native-webview": "^7.0.2",
+    "react-navigation": "^3.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.1.0",
+    "flow-bin": "^0.98.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "isSwift": true
+}
